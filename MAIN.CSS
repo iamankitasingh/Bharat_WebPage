@@ -1,5 +1,8 @@
 *{
-	margin:0; padding:0; box-sizing:border-box; font-family: 'Josefin Sans', sans-serif;
+	margin:0; 
+	padding:0; 
+	box-sizing:border-box; 
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 header{
@@ -11,22 +14,30 @@ header{
 
 nav{
 	width:100%;
-	height:15vh;  background:rgba(0,0,0,0.2);
-	color:white; display:flex; justify-content:space-between; align-items:center;
-	text-transform:uppercase	;
+	height:15vh;  
+	background:rgba(0,0,0,0.2);
+	color:white; 
+	display:flex; 
+	justify-content:space-between; 
+	align-items:center;
+	text-transform:uppercase;
 }
 
 nav .logo{
-	width: 25%; text-align:center;
+	width: 25%; 
+	text-align:center;
 }
 
 nav .menu{
 	width:40%;
-	display:flex; justify-content:space-around;
+	display:flex; 
+	justify-content:space-around;
 }
 
 nav .menu a{
-	width:25%; text-decoration:none; color:white;
+	width:25%; 
+	text-decoration:none; 
+	color:white;
 	font-weight:bold;
 }
 
@@ -36,7 +47,12 @@ nav .menu a:first-child{
 
 main{
 	width:100%;
-	height:85vh; display:flex; justify-content:center; align-items:center; text-align:center; color:white;
+	height:85vh; 
+	display:flex; 
+	justify-content:center; 
+	align-items:center; 
+	text-align:center; 
+	color:white;
 }
 
 section{
@@ -44,7 +60,10 @@ section{
 }
 
 section h3{
-	font-size:35px; font-weight:200; letter-spacing:3px; text-shadow:1px 1px 2px black;
+	font-size:35px; 
+	font-weight:200; 
+	letter-spacing:3px; 
+	text-shadow:1px 1px 2px black;
 }
 
 section h1{
@@ -113,11 +132,12 @@ section .btntwo{
 
 
 @media screen and (max-width:998px){
-	html{
-		font-size:55%;
-	}
-	nav .logo{
-	width: 20%; text-align:center;
+html{
+	font-size:55%;
+}
+nav .logo{
+	width: 20%; 
+	text-align:center;
 }
 header{
 	width:100%; height:100vh;
@@ -127,15 +147,19 @@ header{
 }
 main{
 	width:100%;
-	height:85vh; display:flex; justify-content:center; align-items:center; text-align:center; color:white;
+	height:85vh; display:flex; 
+	justify-content:center; 
+	align-items:center; 
+	text-align:center; 
+	color:white;
 }
 }
 
 @media screen and (max-width:768px){
-	html{
-		font-size:45%;
-	}
-	header{
+html{
+	font-size:45%;
+}
+header{
 	width:45%; height:100vh;
 	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url('TajMahal.jpg');
 	background-repeat:no-repeat;
@@ -143,15 +167,20 @@ main{
 }
 main{
 	width:768px;
-	height:85vh; display:flex; justify-content:center; align-items:center; text-align:center; color:white;
+	height:85vh; 
+	display:flex; 
+	justify-content:center; 
+	align-items:center; 
+	text-align:center; 
+	color:white;
 }
 }
 
 @media screen and (max-width:320px){
-		html{
-		font-size:100%;
-	}
-	header{
+html{
+	font-size:100%;
+}
+header{
 	width:35%; height:100vh;
 	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url('TajMahal.jpg');
 	background-repeat:no-repeat;
@@ -159,6 +188,11 @@ main{
 }
 main{
 	width:320px;
-	height:85vh; display:flex; justify-content:center; align-items:center; text-align:center; color:white;
+	height:85vh; 
+	display:flex; 
+	justify-content:center; 
+	align-items:center; 
+	text-align:center; 
+	color:white;
 }
 }
